@@ -5,48 +5,104 @@
   <title>Rahul Kiroriwal | Data Scientist</title>
   <meta name="viewport" content="width=device-width, initial-scale=1" />
   <link rel="stylesheet" href="style.css" />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;800&display=swap" rel="stylesheet">
 </head>
 <body>
 
-  <header>
-    <h1>Rahul Kiroriwal</h1>
-    <p>Data Scientist | Product Analyst | ML Engineer</p>
-    <a href="resume.pdf" target="_blank">Download Resume</a>
-  </header>
+<nav>
+  <h2>Rahul</h2>
+  <div>
+    <a href="#about">About</a>
+    <a href="#experience">Experience</a>
+    <a href="#projects">Projects</a>
+    <a href="#contact">Contact</a>
+  </div>
+</nav>
 
-  <section>
-    <h2>About Me</h2>
-    <p>
-      Final year student at BITS Pilani with experience in Product Analytics, 
-      Business Intelligence, and Data Science at Naukri.com. I build scalable ML systems 
-      and analytics platforms.
-    </p>
-  </section>
+<section class="hero">
+  <h1>Data Scientist & ML Engineer</h1>
+  <p>
+    I build production-grade machine learning systems that drive real business impact.
+    Currently working at Naukri (Info Edge) on large-scale AI products.
+  </p>
+  <div class="buttons">
+    <a class="primary" href="#">Download Resume</a>
+    <a class="secondary" href="https://github.com/Rkinbag" target="_blank">GitHub</a>
+  </div>
+</section>
 
-  <section>
-    <h2>Projects</h2>
+<section id="about">
+  <h2>About Me</h2>
+  <p>
+    I'm a Data Scientist at Info Edge (Naukri) with 1+ year of experience building ML systems
+    across recommendation, NLP, and predictive modeling. I hold a Master's in Mathematics
+    from BITS Pilani with a minor in Finance.
+  </p>
+</section>
 
+<section id="experience">
+  <h2>Experience</h2>
+
+  <div class="card">
+    <h3>Data Scientist — Info Edge (Naukri)</h3>
+    <span>July 2024 – Present</span>
+    <ul>
+      <li>Built ML-powered recruiter segmentation system using BERT + HDBSCAN (18% CTR uplift)</li>
+      <li>Deployed salary prediction model (R² = 0.83) serving 2M+ users</li>
+      <li>Generated ₹1.2 Cr revenue via propensity modeling</li>
+      <li>Built RAG-based sales assistant using LangChain + Chroma</li>
+    </ul>
+  </div>
+
+  <div class="card">
+    <h3>Product Analyst Intern — Darwinbox</h3>
+    <span>Jan 2024 – Jun 2024</span>
+    <ul>
+      <li>Built employee risk identification methodology</li>
+      <li>Validated engagement survey (Cronbach’s α = 0.89)</li>
+    </ul>
+  </div>
+
+</section>
+
+<section id="projects">
+  <h2>Projects</h2>
+
+  <div class="grid">
     <div class="project">
-      <h3>Salary Prediction System</h3>
-      <p>ML model using LightGBM with R² = 0.83 deployed in production.</p>
-      <a href="#">GitHub</a>
+      <h3>LLM Search Reranking System</h3>
+      <p>Semantic retrieval + cross-encoder reranking. Improved NDCG@10 by 12% on BEIR benchmark.</p>
     </div>
 
     <div class="project">
-      <h3>Job Spam Detection</h3>
-      <p>Reduced turnaround time by revamping BI data structure and dashboarding.</p>
-      <a href="#">GitHub</a>
+      <h3>Pairs Trading Strategy</h3>
+      <p>Cointegration-based trading strategy using time-series modeling and statistical arbitrage.</p>
     </div>
-  </section>
 
-  <section>
-    <h2>Skills</h2>
-    <p>Python, SQL, Spark, ML, Deep Learning, Recommender Systems</p>
-  </section>
+    <div class="project">
+      <h3>Salary Prediction Engine</h3>
+      <p>XGBoost + Bayesian optimization model with R² = 0.83 deployed in production.</p>
+    </div>
+  </div>
+</section>
 
-  <footer>
-    <p>📧 rahul@email.com | 🔗 LinkedIn | 💻 GitHub</p>
-  </footer>
+<section id="skills">
+  <h2>Skills</h2>
+  <p>
+    Python, SQL, R, PyTorch, TensorFlow, XGBoost, NLP, LLMs, LangChain, AWS, Vector Databases,
+    Recommender Systems, Causal Inference
+  </p>
+</section>
+
+<section id="contact">
+  <h2>Contact</h2>
+  <p>📧 kiroriwalrahul18@gmail.com</p>
+  <p>🔗 LinkedIn | 💻 GitHub</p>
+</section>
+
+<footer>
+  <p>© 2026 Rahul Kiroriwal</p>
+</footer>
 
 </body>
 </html>
